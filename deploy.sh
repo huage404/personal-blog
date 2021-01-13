@@ -15,7 +15,7 @@ git add .
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io  填写你刚刚创建的仓库地址
-git remote add origin origin https://github.com/huage404/my_bolg.git
+git remote add origin origin git@github.com:huage404/my_bolg_website.git
 
 git push -u origin main
 
