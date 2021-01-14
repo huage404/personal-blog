@@ -4,13 +4,13 @@
 set -e
 
 # 删除之前创建的 public
-rm -rf public
+rm -rf dist
 
 # 生成静态文件
 npm run build
 
 # 进入生成的文件夹
-cd public
+cd dist
 
 # 添加域名配置文件
 echo www.xiazhenhua.cn >> CNAME

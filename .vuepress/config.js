@@ -2,7 +2,7 @@ const sidebar = require('./siderbar.js');
 module.exports = {
     "title": "去年夏天",
     "description": "去年夏天的博客",
-    "dest": "public",
+    "dest": "dist",
     // "base": "/my_blogs_website/",
     "base": '/',
     "head": [
@@ -29,7 +29,7 @@ module.exports = {
             //先安装在配置， npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
             "@vuepress-reco/vuepress-plugin-kan-ban-niang",
             {
-                theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
+                theme: ['haruto','blackCat', 'whiteCat', 'haru1', 'haru2',  'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
                 clean: true,
                 messages: {
                     welcome: '我是lookroot欢迎你的关注 ',
@@ -37,8 +37,9 @@ module.exports = {
                     theme: '好吧，希望你能喜欢我的其他小伙伴。',
                     close: '再见哦'
                 },
-                width: 150,
-                height: 220
+                modelStyle: {right: '0px', bottom: '-20px', opacity: '0.9'},
+                width: 240,
+                height: 352
             }
         ],
     ],
