@@ -3,8 +3,8 @@ module.exports = {
     "title": "去年夏天",
     "description": "去年夏天的博客",
     "dest": "public",
-    // "base": '/my_blog/',
-    "base": "/my_blogs_website/",
+    // "base": "/my_blogs_website/",
+    "base": '/',
     "head": [
         [
             "link",
@@ -31,8 +31,8 @@ module.exports = {
         "subSidebar": 'auto',
         // 评论配置
         "valineConfig": {
-            "appId": 'EX7Hwx6C1KWBtvUCWHKj3CXi-gzGzoHsz',
-            "appKey": '2MjJsBaPxWhi8LmoJsIMojyk',
+            "appId": '6h3ThNDosJ4sn541dLB0cLkM-gzGzoHsz',
+            "appKey": 'pyV6dnFSCIaREPxYMcHNxmAn',
             "isShowComments": true
         },
         // 导航

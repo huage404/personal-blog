@@ -12,6 +12,9 @@ npm run build
 # 进入生成的文件夹
 cd public
 
+# 添加域名配置文件
+echo www.xiazhenhua.cn >> CNAME
+
 git init
 git add .
 git commit -m 'deploy'
