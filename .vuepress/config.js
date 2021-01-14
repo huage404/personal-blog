@@ -22,7 +22,26 @@ module.exports = {
         ]
     ],
     // 插件
-    "plugins": ["@vuepress-reco/vuepress-plugin-comments", "vuepress-plugin-meting"],
+    "plugins": [
+        "@vuepress-reco/vuepress-plugin-comments",
+        "vuepress-plugin-meting",
+        [
+            //先安装在配置， npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
+            "@vuepress-reco/vuepress-plugin-kan-ban-niang",
+            {
+                theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
+                clean: true,
+                messages: {
+                    welcome: '我是lookroot欢迎你的关注 ',
+                    home: '心里的花，我想要带你回家。',
+                    theme: '好吧，希望你能喜欢我的其他小伙伴。',
+                    close: '再见哦'
+                },
+                width: 150,
+                height: 220
+            }
+        ],
+    ],
     // 主题
     "theme": "reco",
     // 主题配置
