@@ -4,7 +4,7 @@ module.exports = {
     "description": "去年夏天的博客",
     "dest": "public",
     // "base": '/my_blog/',
-    "base": "/",
+    "base": "/my_blogs_website/",
     "head": [
         [
             "link",
@@ -33,6 +33,7 @@ module.exports = {
         "valineConfig": {
             "appId": 'EX7Hwx6C1KWBtvUCWHKj3CXi-gzGzoHsz',
             "appKey": '2MjJsBaPxWhi8LmoJsIMojyk',
+            "isShowComments": true
         },
         // 导航
         "nav": [
