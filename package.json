@@ -17,5 +17,6 @@
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "vue-class-component": "^7.2.3"
   },
+  "license": "ISC",
   "description": ""
 }
