@@ -9,9 +9,8 @@ const TOOLS_PATH = '/blogs/tools'
 // NodeJs
 const NODE_PATH = '/blogs/node'
 
-// CSS
-
-
+// Vue Cli
+const VUE_CLI = '/blogs/vue-cli'
 
 module.exports = {
   [TOOLS_PATH]: [
@@ -20,4 +19,7 @@ module.exports = {
   [NODE_PATH]: [
     createSideBarConfig('NodeJs 笔记', NODE_PATH + '/node-base'),
   ],
+  [VUE_CLI]: [
+    createSideBarConfig('Vue Cli 笔记', VUE_CLI + '/base')
+  ]
 }
