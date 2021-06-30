@@ -5,6 +5,8 @@ set -e
 
 cd /home/huage/code/personal-blog/
 
+git fetch --all
+git reset --hard origin/main
 git pull
 
 yarn build
