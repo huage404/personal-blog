@@ -3,7 +3,6 @@ module.exports = {
     "title": "去年夏天",
     "description": "去年夏天的博客",
     "dest": "dist",
-    // "base": "/my_blogs_website/",
     "base": '/',
     "head": [
         [

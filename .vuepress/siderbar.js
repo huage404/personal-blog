@@ -15,6 +15,9 @@ const VUE_CLI = '/blogs/vue-cli'
 // uni-app
 const UNI_APP = '/blogs/uni-app'
 
+// nginx
+const NGINX = '/blogs/nginx'
+
 
 module.exports = {
   [TOOLS_PATH]: [
@@ -28,5 +31,8 @@ module.exports = {
   ],
   [UNI_APP]: [
     createSideBarConfig('uni-app 笔记', UNI_APP + '/base')
+  ],
+  [NGINX]: [
+    createSideBarConfig('nginx 笔记', NGINX + '/base')
   ]
 }
